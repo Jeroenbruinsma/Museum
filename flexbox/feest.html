@@ -1,0 +1,88 @@
+<div class="container">
+        <div class="divholderleft">
+          <div class="blockleft blockSmall"></div>
+          <div class="blockright blockSmall"></div>
+        </div>
+        <div class="divholdermiddle">
+          <div class="blockBig"></div>
+          
+        </div>
+        <div class="divholderright">
+          <div class="rotated">
+          <p>h</p>
+          <p>e</p>
+          <p>l</p>
+          <p>l</p>
+          <p>o</p>
+          </div>
+        </div>
+      </div>
+
+
+      body {
+        background-color: #a3d5d3;
+      }
+      .container{
+         display: flex;
+      
+      }
+      .divholderleft{
+        display: flex;
+        width: 200px;
+        height: 200px;
+        background-color : red;  
+      
+      }
+      .divholdermiddle{
+        display: flex;
+        width: 200px;
+        height: 200px;
+        background-color : green;  
+       }
+      .divholderright{
+        display: flex;
+        width: 200px;
+        height: 200px;
+        background-color : white;  
+       }
+      .blockleft{
+        background-color : gray;  
+        align-self: flex-end;
+        margin-left: 0px;
+       }
+      .blockright{
+        background-color : gray;  
+        align-self: flex-end;
+        margin-left: 100px;
+        }
+      .blockBig{
+        height: 50%;
+        width: 50%;
+      }
+      .blockSmall{
+        height: 25%;
+        width: 25%;
+      }
+      .blockBig{
+        background-color : gray;  
+      }
+      
+       .blockBig{
+        height: 50%;
+        width: 50%;
+        align-self: flex-end;
+        margin-left: 25%
+      }
+      p{
+        color: gray;
+        font-size: 4em;
+        align-self: center;
+        font-family: sans;
+        display: inline-block;
+        transform: rotate(-30deg);
+      }
+      .rotated{
+        transform: rotate(30deg);
+      }
+      
+      
