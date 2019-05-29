@@ -16,7 +16,8 @@ function submitComment() {
         console.log("Msg was empty")
         msg = name + " Forgot to enter a message"
     }
-
+    name = capitalize(name)
+    
     h3.innerHTML = `${name} said:`;
     p.innerHTML = `${msg}`;
     comment.classList.add('comment')
@@ -30,3 +31,7 @@ function submitComment() {
     textArea.value = null
 
 }
+const capitalize = (s) => {
+    if (typeof s !== 'string') return ''
+    return s.charAt(0).toUpperCase() + s.slice(1)
+  }
