@@ -42,14 +42,38 @@ section.comment{
   color: purple
 
 }
-.formSection{
-  align-items:left;
-  
-  
+
+.formSectionOne{
+  color:chocolate;
+  margin: 10px;
 
 }
-.formSection label{
-  color:chocolate
+.formSectionTwo{
+color: yellowgreen;
+margin: 10px;
+margin-bottom: 5px
+  
+}
+.button{
+  color: yellowgreen;
+  margin: 5px;
+  width: 13em;
+  display: inline-block;
+    
+  }
+
+#name{
+  width: 13em;
 
 }
-.newcomment{background: yellow;border-style:solid;border-radius: 1em;margin: 1pc;margin-bottom: 0em;}
+#msg{
+  width: 13em;
+}
+
+.newcomment{
+  background: yellow;
+  border-style:solid;
+  border-radius: 1em;
+  margin: 1pc;
+  margin-bottom: 0em;
+}
