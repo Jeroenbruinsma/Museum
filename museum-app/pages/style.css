@@ -26,54 +26,82 @@ body {
    justify-content: center;
    align-items: flex-start;
  }
-section.comment{
- font-family: monospace;
- font-size: 1em;
- border-style: solid;
- border-radius: 1em;
- margin: 2pc;
-}
-#comments p{
-  font-size: 1em;
-  color:brown
-}
-#content p{
-  font-size: 3em;
-  color: purple
 
-}
 
-.formSectionOne{
-  color:chocolate;
-  margin: 10px;
-
+.containerNewComment{
+  /* border-style: solid; */
+  border-color: gray;
+  border-width: 1px;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  
+  flex-direction: column;
+  align-items: center;
 }
-.formSectionTwo{
-color: yellowgreen;
-margin: 10px;
-margin-bottom: 5px
+.holder{
+  /* border-style: solid; */
+  border-color: gray;
+  border-width: 1px;
+  padding: 2px;
+  width: 70%;
+
+  display: flex;
+  flex-direction: row;
+
+justify-content: center;
+}
+label{
+  /* border-style: solid; */
+  border-color: red;
+  border-width: 1px;
+  /*text-align: end;*/
   
 }
-.button{
-  color: yellowgreen;
-  margin: 5px;
-  width: 13em;
-  display: inline-block;
-    
-  }
 
-#name{
-  width: 13em;
+.labelcontainer{
+  /* border-style: solid; */
+  border-color: red;
+  border-width: 1px;
+  width: 130px;
+  /*justify-content: flex-end;*/
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 
+}
+.buttoncontainer{
+  /* border-style: solid; */
+  border-color: red;
+  border-width: 1px;
+  width: 130px;
+  /*justify-content: flex-end;*/
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+ margin-top: 15px;
+}
+.textcontainer{
+  /* border-style: solid; */
+  border-color: red;
+  border-width: 1px;
+  width: 12em;
+  /*justify-content: flex-end;*/
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 3em;
+
+}
+.row1 .row2 .row3{
+  padding: 1px;
+  justify-content: center;
+  align-items: center;
+  height: 
 }
 #msg{
-  width: 13em;
-}
-
-.newcomment{
-  background: yellow;
-  border-style:solid;
-  border-radius: 1em;
-  margin: 1pc;
-  margin-bottom: 0em;
+  height: 6em;
 }
