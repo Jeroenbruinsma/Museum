@@ -3,7 +3,7 @@ paintings = data.artObjects;
 console.log("Amount of paintings: " + paintings.length)
 for (var i = 0; i < paintings.length; i++) {
     //console.log(paintings[i]);
-    makeElement(paintings[i])
+    makeElement(paintings[i],i)
     
     //gallery.appendChild(a)
     //gallery.appendChild(img)
@@ -12,7 +12,7 @@ for (var i = 0; i < paintings.length; i++) {
 
 
 
-function makeElement(data) {
+function makeElement(data,id) {
 
     let a = document.createElement('a')
     let img = document.createElement('img')
@@ -21,6 +21,8 @@ function makeElement(data) {
     img.alt = data.title;
     img.class = "artObject";
     a.href = "./pages/detail-page.html"
+    a.href += `?id=${id}`;
+    
 
     a.appendChild(img)
 
