@@ -25,11 +25,42 @@
             <h2> Comments</h2>
             <section class="comment">
                 <h3 id="h3"> Arien said </h3>
-                <p> this is one of my faverits</p>
+                <p> This is one of my favorites</p>
             </section>
 
         </section>
-            <section class="newcomment">
+
+        <form onsubmit="submitComment(); return false">
+        <div class="containerNewComment">
+            <div class="labels holder row1">
+                <div class="labelcontainer"><label>Name:</label></div>
+                <div class="textcontainer"><input type="text" id="name"></div>
+            </div>
+            <div class="textbox holder row2">
+                <div class="labelcontainer"><label>Comment:</label></div>
+                <div class="textcontainer"><input type="text" id="msg"></div>
+
+            </div>
+            <div class="button holder row3">
+                    <div class="labelcontainer"></div>
+                    
+                    <div class="buttoncontainer"><button type="default">Post your comment</button></div>
+           </div>
+
+
+
+        </div>
+        </form>
+        
+
+
+
+
+
+
+
+
+        <!-- <section class="newcomment">
                 <form onsubmit="submitComment(); return false">
                     <div class="formSectionOne"> 
                         <label for="name">Name:</label>
@@ -51,10 +82,10 @@
 
 
         
-        </section>
+        </section> -->
     </main>
     <footer>
-        <p>Made with ❤ at Codaisseur by mr. Brown</p>
+        <p>Made with love at Codaisseur by mr. Brown</p>
     </footer>
 </body>
 
